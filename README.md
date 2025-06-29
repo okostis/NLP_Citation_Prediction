@@ -1,1 +1,3 @@
-# NLP_Citation_Prediction
+This repository contains a Jupyter notebook that we developed during the **University of Ioannina's MYE053 NLP Course**. It's main focus is Citation Link Prediction for research papers. The notebook's core is predicting citation links: we extract rich semantic meaning from paper abstracts using Sentence-BERT (SBERT) embeddings and combine them with practical author-based features like shared author counts and Jaccard similarity. A LightGBM classifier then takes all these engineered features and learns to predict the likelihood of a citation existing between any given pair of papers, offering an effective approach for uncovering connections within academic graphs.
+
+More info can be found in the course's kaggle challenge : https://www.kaggle.com/competitions/nlp-cse-uoi-2025/overview
